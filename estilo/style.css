@@ -46,3 +46,7 @@ p{
     text-align: justify;
     text-indent: 30px;
 }
+
+a{
+    text-align: right;
+}
