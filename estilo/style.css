@@ -33,9 +33,6 @@ body{
     background-image: linear-gradient(to right, #66898fc4,#e4dad8c6, #6e899ac1);
 }
 
-
-    
-
 h2, h3{
     font-size: 2em;
     font-family: fantasy;
@@ -48,32 +45,4 @@ p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
     text-indent: 30px;
-}
-
-.principal{
-    font-style: italic;
-    font-weight: bolder;
-    font-size: 3em;
-    font-family: 'Kaushan Script', cursive, sans-serif;
-    text-align: center;
-    color:#1d6b78c5 ;
-    text-shadow: 1px 1px 2px #0e32389a     
-}
-
-.destaque{
-    font-style: italic;
-    font-weight: bolder;
-    font-size: 1em;
-    font-family: 'Kaushan Script', cursive, sans-serif;
-    text-align: center;
-    color:#1d6b78c5 ;
-      
-}
-
-.enfase{
-    background-color: rgba(84, 114, 114, 0.468);
-}
-
-#importante{
-    background-color: rgba(0, 255, 255, 0.347);
 }
