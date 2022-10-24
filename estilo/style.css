@@ -20,6 +20,9 @@ h1{
     text-align:center ;
     color: #89414C;
 }
+h1#principal{
+    background-image: linear-gradient(to right, #66898fc4,#e4dad8c6, #6e899ac1);
+}
 
 body{
     background-image: linear-gradient(to right, #66898fc4,#e4dad8c6, #6e899ac1);
@@ -41,4 +44,9 @@ p{
 
 a{
     text-align: right;
+}
+
+.destaque{
+    font-weight: bold;
+    color:#144b5598 ;
 }
