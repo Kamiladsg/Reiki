@@ -43,10 +43,26 @@ p{
 }
 
 a{
+    color: #89414C;
     text-align: right;
+    text-decoration: none;
 }
+a:hover{
+    text-decoration: underline;
+  }
 
 .destaque{
     font-weight: bold;
     color:#144b5598 ;
+}
+
+.especial{
+    font-weight: bold;
+    color:#144b5598 ;
+}
+
+.especial::after{
+    content: ' ⇢ ';
+    font-weight: bold;
+    color:#1c363bdc ;
 }
