@@ -55,9 +55,12 @@ a:hover{
     font-weight: bold;
     color:#144b5598 ;
 }
-.diferenciado{
+#diferenciado{
     color: #89414C;
-    content: ' ☸ ';
+    
+}
+#diferenciado:hover{
+    color: #89414C;
 }
 .especial{
     font-weight: bold;
