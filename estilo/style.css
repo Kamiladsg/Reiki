@@ -5,12 +5,19 @@
     font-family: Arial, Helvetica, sans-serif;
     /*height: 100%;*/
 }
+
+body{
+    background-image: linear-gradient(to right, #66898fc4,#e4dad8c6, #6e899ac1);
+    margin: 0px;
+    text-align: justify;
+}
+
 main{
     background-color: white;
     border-radius:10px ;
     box-shadow:5px 5px 15px #144b5598 ;
     width: 1150px;
-    padding: 5px;
+    padding: 10px;
     margin: auto;
  }
 h1{
@@ -19,13 +26,30 @@ h1{
     font-weight: normal;
     text-align:center ;
     color: #89414C;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
-h1#principal{
+header{
     background-image: linear-gradient(to right, #66898fc4,#e4dad8c6, #6e899ac1);
+    padding:1px;
+    margin: 5px 5px 15px 5px;
+    height:210px ;
 }
+nav{
+    margin: 10px 10px 30px 10px;
+    
+}
+nav > h1{
+    padding: 8px;
+    font-size:20px;
 
-body{
-    background-image: linear-gradient(to right, #66898fc4,#e4dad8c6, #6e899ac1);
+}
+nav > a{
+    text-decoration: none;
+    color: #89414C;
+    margin: 15px;
+    padding-left: 15px;
+    border: 20px ;
 }
 
 h2, h3{
@@ -40,6 +64,15 @@ p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
     text-indent: 30px;
+}
+
+footer{
+    background-image: linear-gradient(to right, #66898fc4,#e4dad8c6, #6e899ac1);
+    height: 25px;
+    text-align: center;
+    padding: 5px;
+    border: auto;
+    margin: auto;
 }
 
 a{
@@ -72,3 +105,12 @@ a:hover{
     font-weight: bold;
     color:#1c363bdc ;
 }
+
+.video{
+    text-align: center;
+}
+.imagem{
+    text-align: center;
+    margin: 10px 10px 30px 10px;
+}
+
